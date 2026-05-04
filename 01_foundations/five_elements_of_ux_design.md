@@ -13,6 +13,18 @@ UXデザインは一気にUIを作るのではなく、抽象から具体へと�
 
 下位レイヤーほど具体的であり、上位レイヤーに依存している。
 
+graph TD
+    A[戦略 Strategy<br>誰のどんな問題を解決するか] --> B[範囲 Scope<br>何を作るか（機能・コンテンツ）]
+    B --> C[構造 Structure<br>どう動き、どう繋がるか]
+    C --> D[骨格 Skeleton<br>どう配置するか]
+    D --> E[表面 Surface<br>どう見えるか]
+
+    style A fill:#f9f,stroke:#333,stroke-width:1px
+    style B fill:#ccf,stroke:#333,stroke-width:1px
+    style C fill:#cfc,stroke:#333,stroke-width:1px
+    style D fill:#ffc,stroke:#333,stroke-width:1px
+    style E fill:#fcc,stroke:#333,stroke-width:1px
+
 
 ## 各レイヤーの理解
 
