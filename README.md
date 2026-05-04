@@ -1,6 +1,5 @@
 # UX Design Learning Log
 
-Google UX Design Professional Certificateの内容をベースに、
 UXデザインの学習記録と実践プロジェクトをまとめています。
 
 ## 目的
